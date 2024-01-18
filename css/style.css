@@ -1,0 +1,162 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* start header */
+}
+body{
+  background-image: url("/public/images/bg3.jpg");
+ 
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.header{
+  display: flex;
+  background-color: black;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 2rem;
+  /* border: 1px solid red; */
+  height: 80px;
+  justify-content: space-between;
+  
+}
+.logo{
+  border: 1px solid green;
+  height: 60px;
+  width: 60px;
+}
+.logo img{
+  height: 100%;
+
+}
+.nav{
+  display: flex;
+}
+nav{
+  display: flex;
+  gap: 1rem;
+  
+}
+nav a{
+  color: white;
+  border: 1px solid white;
+  padding: .5rem;
+  text-decoration: none;
+}
+nav a:hover{
+  color: red;
+}
+/* close header */
+/* start section  */
+.hero{
+  display: flex;
+  justify-content: space-between;
+  padding:3rem 3rem;
+}
+.hero-content{
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.hero-heading{
+  margin-bottom: .8rem;
+}
+.hero-list li{
+  margin-bottom: .3rem;
+}
+.hero-form{
+  border: 1px solid red;
+  padding: 2rem;
+  background-color: ivory;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.form-input{
+  display: flex;
+  flex-direction: column;
+}
+form button{
+  border: none;
+  padding: 5px;
+  width: 100%;
+  background-color: rgb(31, 116, 234);
+  color: white;
+}
+.form-bottom{
+  margin-top: 1.2rem;
+}
+.form-bottom a{
+  display: block;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin:0px 3rem;
+  padding: .5rem;
+  gap:10px;
+}
+.card{
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: .5rem;
+  width:500px ;
+  height: 200px;
+  background-color: rgb(231, 222, 222);
+  
+}
+.card h2{
+  font-size: small;
+  text-align: center;
+}
+.card p{
+  text-align:start;
+}
+.card span{
+  color: red;
+  cursor: pointer;
+}
+footer{
+  background-color:ivory;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  gap:.5rem;
+  margin-top:2rem ;
+  border: 1px solid red;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+}
+footer li{
+  padding: .5rem;
+  
+}
+
+footer a{
+  text-decoration: none; 
+  color:black ; 
+  
+}
+ul .a{
+  
+  border-right: 1px solid rgb(192, 189, 189);
+}
+.c {
+  color: red;
+  display: flex;
+  text-align:justify;
+  margin-right:40px;
+
+}
+.footer-content{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
